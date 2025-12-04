@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Leaf, ShieldCheck, Zap, Activity, Watch, Scale, Stethoscope, CheckCircle2, ShoppingBag, ChevronRight, Flame, Camera, MessageCircle } from 'lucide-react';
+import { ArrowRight, Leaf, ShieldCheck, Zap, Activity, Watch, Scale, Stethoscope, ShoppingBag, ChevronRight, Flame, Camera, MessageCircle } from 'lucide-react';
 
 const FeatureCard: React.FC<{
   title: string;
@@ -371,4 +371,5 @@ export const Home: React.FC = () => {
       </section>
     </div>
   );
+
 };
